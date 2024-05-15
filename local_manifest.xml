@@ -5,12 +5,16 @@
     <remote name="realm"
             fetch="https://github.com/aosp-realm/"
             clone-depth="1" />
+
+    <remote name="hubgit"
+            fetch="https://github.com/"
+            clone-depth="1" />
  
  <!-- Trees -->
  <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="lineage-21" />
  <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="main" />
- <project path="kernel/xiaomi/sm8250" name="PocoF3Releases/kernel_xiaomi_sm8250" remote="github-non-los" revision="aosp-14" />
+ <project path="kernel/xiaomi/sm8250" name="PocoF3Releases/kernel_xiaomi_sm8250" remote="hubgit" revision="aosp-14" />
 
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="github" />
+ <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hubgit" revision="lineage-21" />
 
 </manifest>
