@@ -2,17 +2,13 @@
 <manifest>
 
  <!-- Remotes -->
-    <remote name="hub"
-            fetch="https://github.com/dogpoopy/"
+    <remote name="realm"
+            fetch="https://github.com/aosp-realm/"
             clone-depth="1" />
-
-    <remote name="lab"
-            fetch="https://gitlab.com/dogpoopy/"
-            clone-depth="1" />
-
+ 
  <!-- Trees -->
- <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="hub" revision="main" />
- <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="lab" revision="main" />
- <project path="kernel/xiaomi/vayu" name="dogpoopy/android_kernel_xiaomi_vayu" remote="github" revision="thirteen" />
+ <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="lineage-21" />
+ <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="main" />
+ <project path="kernel/xiaomi/sm8250" name="PocoF3Releases/kernel_xiaomi_sm8250" remote="github" revision="aosp-14" />
 
 </manifest>
