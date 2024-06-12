@@ -2,38 +2,28 @@
 <manifest>
 
  <!-- Remotes -->
- <remote name="hub"
-         fetch="https://github.com/dogpoopy/"
-         clone-depth="1" />
+    <remote name="realm"
+            fetch="https://github.com/aosp-realm/"
+            clone-depth="1" />
 
- <remote name="lab"
-         fetch="https://gitlab.com/dogpoopy/"
-         clone-depth="1" />
+    <remote name="hubgit"
+            fetch="https://github.com/"
+            clone-depth="1" />
+
+    <remote name="lab"
+            fetch="https://gitlab.com/dogpoopy"
+            clone-depth="1" />
  
  <!-- Trees -->
- <project path="device/xiaomi/vayu"
-          name="android_device_xiaomi_vayu"
-          remote="hub"
-          revision="ArrowOS-13.1" />
- 
- <project path="vendor/xiaomi/vayu"
-          name="android_vendor_xiaomi_vayu"
-          remote="hub"
-          revision="main" />
- 
- <project path="kernel/xiaomi/vayu"
-          name="dogpoopy/android_kernel_xiaomi_vayu"
-          remote="github"
-          revision="main" />
- 
- <project path="vendor/xiaomi/vayu-miuicamera"
-          name="vendor_xiaomi_vayu-miuicamera"
-          remote="hub"
-          revision="main" />
+ <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="lineage-21" />
+ <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="main" />
+ <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="realm" revision="aosp-14" />
+ <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-apollo" remote="lab" revision="aosp-14" />
+
 
  <project path="hardware/xiaomi"
           name="android_hardware_xiaomi"
-          remote="hub"
+          remote="realm"
           revision="arrow-13.1" />
 
  <remove-project name="android_frameworks_base" />
