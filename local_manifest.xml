@@ -32,5 +32,11 @@
           name="android_packages_modules_Bluetooth"
           remote="realm"
           revision="arrow-13.1" />
+
+ <remove-project name="platform/external/libcxx" />  
+ <project path="external/libcxx"
+          name="LineageOS/android_external_libcxx"
+          remote="hubgit"
+          revision="lineage-20.0"/
  
 </manifest>
