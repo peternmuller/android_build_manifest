@@ -19,23 +19,18 @@
  <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="main" />
  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="realm" revision="aosp-14" />
  <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-apollo" remote="lab" revision="aosp-14" />
-
-
- <project path="hardware/xiaomi"
-          name="android_hardware_xiaomi"
-          remote="realm"
-          revision="arrow-13.1" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="realm" revision="arrow-13.1" />
 
  <remove-project name="android_frameworks_base" />
  <project path="frameworks/base"
           name="android_frameworks_base"
           remote="realm"
           revision="arrow-13.1" />
- 
- <remove-project name="platform/external/libcxx" />  
- <project path="external/libcxx"
-          name="LineageOS/android_external_libcxx"
-          remote="hubgit"
-          revision="lineage-20.0"/>
+
+ <remove-project name="android_packages_modules_Bluetooth" />
+ <project path="packages/modules/Bluetooth"
+          name="android_packages_modules_Bluetooth"
+          remote="realm"
+          revision="arrow-13.1" />
  
 </manifest>
