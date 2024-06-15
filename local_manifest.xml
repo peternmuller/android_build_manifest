@@ -37,6 +37,6 @@
  <project path="external/libcxx"
           name="LineageOS/android_external_libcxx"
           remote="hubgit"
-          revision="lineage-20.0"/
+          revision="lineage-20.0"/>
  
 </manifest>
