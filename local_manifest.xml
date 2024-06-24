@@ -27,5 +27,10 @@
           name="LineageOS/android_external_libcxx"
           remote="hubgit"
           revision="lineage-20.0"/>
+
+ <project path="hardware/exthm/interfaces"
+          name="ArrowOS/android_hardware_arrow_interfaces"
+          remote="hubgit"
+          revision="arrow-13.1"/>
  
 </manifest>
