@@ -20,6 +20,18 @@
  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="realm" revision="aosp-14" />
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="realm" revision="arrow-13.1" />
 
+ <remove-project name="android_frameworks_base" />
+ <project path="frameworks/base"
+          name="dogpoopy/android_frameworks_base-exthmui"
+          remote="hubgit"
+          revision="Tenshi" />
+ 
+ <remove-project name="android_bionic" />
+ <project path="bionic"
+          name="dogpoopy/android_bionic-exthmui"
+          remote="hubgit"
+          revision="Tenshi" />
+ 
  <remove-project name="android_packages_modules_Bluetooth" />
  <project path="packages/modules/Bluetooth"
           name="android_packages_modules_Bluetooth"
