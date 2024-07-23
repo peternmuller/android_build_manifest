@@ -10,16 +10,16 @@
             fetch="https://github.com/"
             clone-depth="1" />
 
-    <remote name="lab"
+<!--    <remote name="lab"
             fetch="https://gitlab.com/dogpoopy"
-            clone-depth="1" />
+            clone-depth="1" /> -->
  
  
  <!-- Trees -->
- <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="lineage-21" />
- <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="main" />
- <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="realm" revision="aosp-14" />
- <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-apollo" remote="lab" revision="aosp-14" />
+ <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="14" />
+ <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="14" />
+ <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="realm" revision="14" />
+<!-- <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-apollo" remote="lab" revision="aosp-14" /> -->
 
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hubgit" revision="lineage-21" />
 
