@@ -18,7 +18,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="pos-14" />
  <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="14" />
- <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="realm" revision="14" />
+ <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="realm" revision="apollo" />
  <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" remote="hubgit" revision="fourteen" />
 
  <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" remote="hubgit" revision="main" />
