@@ -17,7 +17,7 @@
  
  <!-- Trees -->
  <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="yaap-fifteen" />
- <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="fourteen" />
+ <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="yaap-fifteen" />
  <!-- <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-apollo" remote="lab" revision="14" /> -->
  <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="realm" revision="apollo" />
  <project path="hardware/xiaomi" name="yaap/hardware_xiaomi" remote="hubgit" revision="fifteen" />
