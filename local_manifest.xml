@@ -11,10 +11,10 @@
             clone-depth="1" />
  
  <!-- Trees -->
- <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="evo-xyz" />
- <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="14" />
- <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="realm" revision="14" />
+ <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="lineage-base" />
+ <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="fourteen" />
+ <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="realm" revision="apollo" />
  
- <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hubgit" revision="lineage-21" />
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="realm" revision="fourteen" />
 
 </manifest>
