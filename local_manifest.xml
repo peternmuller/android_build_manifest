@@ -5,23 +5,24 @@
  <remote name="aospa"
   fetch="https://github.com/AOSPA/"
   clone-depth="1" />
- <remote name="tym"
+ <remote name="blobs"
   fetch="https://github.com/ThankYouMario/"
   clone-depth="1" />
  <remote name="hubgit"
   fetch="https://github.com/"
   clone-depth="1" />
 
- <!-- <remote name="lab"
-            fetch="https://gitlab.com/dogpoopy"
-            clone-depth="1" /> -->
- 
- 
  <!-- Trees -->
  <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="aospa" revision="uvite" />
- <project path="vendor/xiaomi/apollo" name="proprietary_vendor_xiaomi_apollo" remote="tym" revision="uvite" />
- <!-- <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-apollo" remote="lab" revision="14" /> -->
  <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="aospa" revision="uvite" />
+ <project path="vendor/aospa/products/apollo" name="android_vendor_aospa" remote="aospa" revision="uvite" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="blobs" revision="uvite" />
+ <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="aospa" revision="uvite-865" />
+ <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aospa" revision="uvite-865" />
+ <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="aospa" revision="uvite-legacy-component" />
+ <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="aospa" revision="uvite-865" />
+ <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="aospa" revision="uvite-SN100X-legacy" />
+ <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="uvite-SN100X-legacy" />
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="aospa" revision="uvite" />
- 
+
 </manifest>
