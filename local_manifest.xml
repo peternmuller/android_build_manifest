@@ -2,19 +2,19 @@
 <manifest>
 
  <!-- Remotes -->
-    <remote name="realm"
-            fetch="https://github.com/aosp-realm/"
-            clone-depth="1" />
+ <remote name="realm"
+  fetch="https://github.com/aosp-realm/"
+  clone-depth="1" />
 
-    <remote name="hubgit"
-            fetch="https://github.com/"
-            clone-depth="1" />
+ <remote name="hubgit"
+  fetch="https://github.com/"
+  clone-depth="1" />
 
  <!-- Trees -->
  <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="statix" />
  <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="statix" />
  <!-- <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="realm" revision="14" /> -->
- <project path="vendor/hardware/xiaomi" name="StatiXOS/android_vendor_hardware_xiaomi" remote="hubgit" revision="udc" />
+ <project path="vendor/hardware/xiaomi" name="StatiXOS/android_vendor_hardware_xiaomi" remote="hubgit" revision="vic" />
 
  <remove-project name="platform/external/libcxx" />
  <project path="external/libcxx" name="LineageOS/android_external_libcxx" remote="hubgit" revision="lineage-21.0"/>
